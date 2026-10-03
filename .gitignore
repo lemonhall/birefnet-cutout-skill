@@ -1,0 +1,17 @@
+# 权重和产物都不进仓库
+
+models/
+*.onnx
+*.pth
+*.safetensors
+
+out/
+*.webp
+*.png
+*.jpg
+*.jpeg
+
+__pycache__/
+*.pyc
+.venv/
+uv.lock
